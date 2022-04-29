@@ -1,0 +1,93 @@
+.container-flex{
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.container-center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-sp-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.field{
+    width:450px;
+    height: 60px;
+    border: 2px solid dodgerblue;
+    font-size: larger;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    margin:10px;
+}
+.submit{
+    color: white;
+    
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    height: 60px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+.submit:hover{
+    color: green;
+    height: 60px;
+    font-size: larger;
+    text-align: left;
+    background-color:cyan;
+    border-radius: 30px;
+    padding: 10px;
+}
+.card{
+    color: white;
+    display: flex;
+    justify-content:end;
+    max-width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    
+    margin-left: 32px;
+    padding: 16px;
+    left: 32px;
+    top: 20px;
+
+/* System Background/Dark Base/Secondary */
+background: #1C1C1E;
+box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1), 0px 20px 48px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(80px);
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.drop{
+    color: white;
+    
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    height: 60px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+#userbg{
+    height:50vw;
+    background-image: url("../img/trafficSingal.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
